@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && refine build",
+    "perf": "foy perf",
+    "build": "refine build",
     "dev": "refine dev",
     "refine": "refine",
     "start": "refine start"
@@ -46,10 +47,16 @@
     "@typescript-eslint/eslint-plugin": "5.48.0",
     "@typescript-eslint/parser": "5.48.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "esbuild": "^0.25.1",
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-react": "^1.0.7",
     "eslint": "^8.24.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "foy": "^0.3.0",
+    "tsx": "^4.19.3",
     "typescript": "^5.4.2",
-    "vite": "^5.1.6"
-  }
+    "vite": "https://pkg.pr.new/vitejs/rolldown-vite/vite@c90496e"
+  },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }
